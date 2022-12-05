@@ -12,7 +12,12 @@ public class StudentController {
     }
 
     @GetMapping("/contact")
-    public String contactpage(){
+    public String ContactPage(){
         return "welcome to contact page";
+    }
+
+    @GetMapping("/gallery")
+    public String GalleryPage(){
+        return "welcome to the gallery page";
     }
 }
